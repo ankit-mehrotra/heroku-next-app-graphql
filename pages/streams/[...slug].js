@@ -9,7 +9,6 @@ const StreamPage = ({ streams}) => {
             <h1>{streams.title}</h1>
             
             <Image
-                loader={myLoader}
                 src={streams.coverImage.url} 
                 alt={`${streams.title} Cover Image`} 
                 width={500}
