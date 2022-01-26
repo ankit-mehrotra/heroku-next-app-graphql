@@ -1,7 +1,7 @@
 
 export default function NewsPage({ articles }){
     return <div>
-        {articles.map(article => <h2>{article.id} {article.title} | {article.category}</h2>
+        {articles.map(article => <h2 key={article.id}>{article.id} {article.title} | {article.category}</h2>
             )}
     </div>
 }

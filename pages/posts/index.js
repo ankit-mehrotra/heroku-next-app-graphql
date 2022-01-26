@@ -5,7 +5,7 @@ export default function PostList({ posts }){
          <>
          <h1>List of Posts</h1>
          {
-             posts.map(post => <div key={post.id}><Link href={`posts/${post.id}`}><h1>{post.id}{post.title}</h1></Link></div>)
+             posts.map(post => <div key={post.id}><Link passHref={true} href={`posts/${post.id}`}><h1>{post.id}{post.title}</h1></Link></div>)
          }
          </>
      )

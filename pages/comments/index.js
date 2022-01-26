@@ -29,7 +29,7 @@ const Comments = () => {
             <button onClick={postComment}>Post Comment</button>
             <button onClick={fetchComments}>Get Comments</button>
             {
-                comments.map(comment => <h2>{comment.id}-{comment.comment}</h2>)
+                comments.map(comment => <h2 key={comment.id}>{comment.id}-{comment.comment}</h2>)
             }
         </div>
     )

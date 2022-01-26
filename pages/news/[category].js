@@ -4,7 +4,7 @@ export default function CategorySearch({ articles,category }){
         <h2>Showing results for {category}</h2>
         {
             articles.map(article => 
-            <div>
+            <div key={article.id}>
                 <h2>{article.title}</h2>
                 <p>{article.id}</p>
             </div>)

@@ -1,12 +1,20 @@
 import { gql } from '@apollo/client'
 import React from 'react'
 import client from '../../apollo-client'
+import Image from 'next/image';
 
 const StreamPage = ({ streams}) => {
     return (
         <div>
             <h1>{streams.title}</h1>
-            <img src={streams.coverImage.url} alt={`${streams.title} Cover Image`} />
+            
+            <Image
+                loader={myLoader}
+                src={streams.coverImage.url} 
+                alt={`${streams.title} Cover Image`} 
+                width={500}
+                height={500}
+                />
             <div dangerouslySetInnerHTML={{__html: streams.description.html}}/>
         </div>
     )
