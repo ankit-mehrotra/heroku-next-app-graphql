@@ -1,0 +1,91 @@
+{
+  "events": [{
+    "id": 1,
+    "title": "Title1",
+    "description": "Description 1",
+    "category": "sports",
+    "date": "12/01/2021"
+  },
+  {
+    "id": 2,
+    "title": "Title2",
+    "category": "comedy",
+    "description": "Description 2",
+    "date": "12/02/2021"
+  },{
+    "id": 3,
+    "category": "comedy",
+    "title": "Title3",
+    "description": "Description 3",
+    "date": "12/03/2021"
+  },{
+    "id": 4,
+    "title": "Title4",
+    "category":"comedy",
+    "description": "Description 4",
+    "date": "12/04/2021"
+  },
+  {
+    "id": 5,
+    "category":"sports",
+    "title": "Title5",
+    "description": "Description 5",
+    "date": "12/05/2021"
+  }
+],
+  "products": [
+    {
+      "id": 1,
+      "title": "json-server1",
+      "author": "typicode990"
+    },
+    {
+      "id": 2,
+      "title": "json-server2",
+      "author": "typicode2"
+    },
+    {
+      "id": 3,
+      "title": "json-server3",
+      "author": "typicode3"
+    },
+    {
+      "id": 4,
+      "title": "json-server4",
+      "author": "typicode4"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "news": [
+    {
+      "id": 1,
+      "category": "sports",
+      "title": "Title 1"
+    },
+    {
+      "id": 2,
+      "category": "comedy",
+      "title": "Title 2"
+    },
+    {
+      "id": 3,
+      "category": "sports",
+      "title": "Title 3"
+    }
+  ],
+  "dashboard":{
+    "posts": 10,
+    "likes": 55,
+    "followers": 8,
+    "following": 9
+  }
+}
