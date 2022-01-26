@@ -30,9 +30,7 @@ export default function Home({ streams }) {
       <Link href='/blog'> 
            <a>Blog Page</a>
         </Link> <br/>
-        <Link href='/product'>
-          <a>Products</a>
-        </Link><br/>
+        
         <Link href='/users'>
           <a>Users</a>
         </Link>
